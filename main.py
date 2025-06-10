@@ -137,7 +137,7 @@ SUBSCRIPTION_FILE = "subscription_data.txt"
 CHANNELS_FILE = "channels_data.json"
 
 # Admin ID
-YOUR_ADMIN_ID = 7517045929
+YOUR_ADMIN_ID = 5435086550
 
 # Function to read subscription data
 def read_subscription_data():
@@ -221,7 +221,7 @@ async def remove_user(client, message: Message):
     except ValueError:
         await message.reply_text("Invalid command format. Use: /removeuser <user_id>")
 
-YOUR_ADMIN_ID = 7517045929
+YOUR_ADMIN_ID = 5435086550
 
 # Helper function to check admin privilege
 def is_admin(user_id):
@@ -346,7 +346,7 @@ async def guide_handler(client: Client, message: Message):
       "/start : To Check Bot Is Alive Or Not\n"
       "/drm : To Upload .txt File\n"
       "/stop : To Stop The Current Operation\n"
-      "/adduser : To Add New User ex: /adduser 7645123456 23/08/2025\n"
+      "/adduser : To Add New User ex: /adduser 5435086550 23/08/2025\n"
       "/removeuser : To Remove User\n"
       "/add_channel : To add New Channel\n"
       "/remove_channel : To remove all the channels\n"
